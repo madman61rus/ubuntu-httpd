@@ -1,0 +1,4 @@
+---
+
+- name: install yii2
+  shell: composer create-project yiisoft/yii2-app-basic /var/www/html/basic 2.0.6

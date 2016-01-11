@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/data/virtuals/ubuntu-httpd","disabled":false}}}
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/media/vkompaniec/Installs/VirtualMachines/VagrantsMachines/ubuntu-httpd","disabled":false},"/var/www/html":{"owner":"vagrant","group":"www-data","guestpath":"/var/www/html","hostpath":"/media/vkompaniec/Installs/VirtualMachines/VagrantsMachines/ubuntu-httpd/www","disabled":false}}}

@@ -11,3 +11,4 @@
      - include: tasks/requirements.yml
      - include: tasks/enable_services.yml
      - include: tasks/composer.yml
+     - include: tasks/yii2.yml

@@ -1,8 +1,14 @@
 ---
 - name: install composer
-  shell: curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+  shell: curl -sS https://getcomposer.org/installer | php5 -- --install-dir=/usr/local/bin --filename=composer
   args:
     creates: /usr/local/bin/composer
 
 - name: update composer
   shell: composer self-update
+
+- name: install asset plugin
+  shell: composer global require "fxp/composer-asset-plugin:~1.1.1"
+
+- name: add github token
+  shell: composer config -g github-oauth.github.com c0cc4140cb541181482b977a5bbb819bde11f673
