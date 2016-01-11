@@ -1,0 +1,9 @@
+---
+
+- name: install requirements
+  apt: name={{ item }} state=present
+  with_items:
+      - unzip
+      - curl
+      - openssl
+      - git
